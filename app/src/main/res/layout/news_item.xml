@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:barrierMargin="30dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/ic_nar" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сотрудники Службы по борьбе с незаконным оборотом наркотиков МВД и УВД Первомайского района нашли в разных точках Бишкека закладки (тайники) с наркотиками. Пресс-служба МВД сообщила, что месяц назад был ликвидирован устойчивый канал сбыта наркотиков через интернет. 22 ноября задержали подозреваемого в момент закладки психотропного вещества в специальных термоусадках. 31-летний мужчина добровольно выдал 15 термоусадок, которые были в его барсетке. Установлено, что задержанный по поручению администратора интернет-магазина делал закладки по всему городу и получал за это деньги. Подозреваемый сотрудничает со следствием, он показал все адреса, где ранее организовал тайники. Всего выявили 40 закладок. Экспертиза показала, что изъятые вещества являются мефедроном и альфа п-в-п." />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
